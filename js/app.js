@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+  function toggle() {
+  	for ( var i=0; i < arguments.length; i++ ) {
+  		$(arguments[i]).style.display = ($(arguments[i]).style.display != 'none' ? 'none' : '' );
+  	}
+  }
+
   $("#navbar").hide();
   $("#learnpage").hide();
   $("#hrpage").hide();
@@ -24,8 +30,9 @@ $(document).ready(function() {
   });
 
   $("#howitworks").click(function(){
-      $("#howitworksinfo").show();
+      $("#howitworksinfo").toggle();
   });
+
 
   // $("#about").click(function(){
   //     $("#aboutpage").show();
