@@ -5798,7 +5798,8 @@ button.close {
 body {
   margin: 3em;
   background-color: #eee;
-  text-align: center; }
+  text-align: center;
+  padding-top: 3em; }
 
 h1, h2, h3, h4 {
   font-color: #666666; }
@@ -5806,8 +5807,12 @@ h1, h2, h3, h4 {
 h3, h4 {
   margin-bottom: 1em; }
 
+#navbar {
+  color: #00BCB0; }
+
 .btn {
   background-color: #F11111;
-  border: 0em; }
+  border: 0em;
+  margin: 0.25em; }
 
 /*# sourceMappingURL=style.css.map */
