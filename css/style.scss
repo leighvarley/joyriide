@@ -3,4 +3,20 @@
 body {
   margin: 3em;
   background-color: #eee;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-color: #666666;
+}
+h3, h4 {
+  margin-bottom: 1em;
+}
+
+.btn {
+  background-color: #F11111;
+  border: 0em;
+  //   & a:hover{
+  //   background-color: #00BCB0;
+  // }
 }
