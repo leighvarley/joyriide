@@ -5807,9 +5807,27 @@ h1, h2, h3, h4 {
 h3, h4 {
   margin-bottom: 2em; }
 
+.glyphicon {
+  margin-right: 0.5em; }
+
 .btn {
   background-color: #F11111;
   border: 0em;
   margin: 0.25em; }
+
+.footer {
+  margin-top: 15em;
+  padding-top: 1em;
+  border-top: 0.1em solid #bdbdbd; }
+  .footer a {
+    color: #666666; }
+    .footer a:hover {
+      color: black; }
+  .footer ul {
+    float: right;
+    list-style: none; }
+    .footer ul li {
+      float: left;
+      margin-left: 1em; }
 
 /*# sourceMappingURL=style.css.map */
