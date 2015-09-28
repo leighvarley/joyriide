@@ -5838,5 +5838,8 @@ p {
   background-color: #F11111;
   border: 0em;
   margin: 0.25em; }
+  .btn a {
+    color: white;
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

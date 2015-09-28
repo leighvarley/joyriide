@@ -1,49 +1,28 @@
 $(document).ready(function() {
+    $('#howitworksinfo').hide();
+    $('#companiesinfo').hide();
+    $('#commutersinfo').hide();
+    $('#bidsinfo').hide();
+    $('#apartmentsinfo').hide();
 
-  // $("#navbar").hide();
-  // $("#learnpage").hide();
-  // $("#hrpage").hide();
-  // $("#about").hide();
-  // $("#howitworksinfo").hide();
-  //
-  // $("#learnbutton").click(function(){
-  //     $("#navbar").show();
-  //     $("#learnpage").show();
-  //     $("#home").hide();
-  //     $("#hrpage").hide();
-  //     $("#howitworksinfo").hide();
-  //     $("#about").hide();
-  // });
-  //
-  // $("#hrbutton").click(function(){
-  //     $("#navbar").show();
-  //     $("#hrpage").show();
-  //     $("#home").hide();
-  //     $("#learnpage").hide();
-  //     $("#about").hide();
-  //     $("#howitworksinfo").hide();
-  //
-  // });
-
-  $("#learnbutton").click(function(){
-      $("#howitworksinfo").hide();
+  $("#howitworksbutton").click(function(){
+    $("#howitworksinfo").toggle();
   });
 
-  function toggle() {
-  	for ( var i=0; i < arguments.length; i++ ) {
-  		$(arguments[i]).style.display = ($(arguments[i]).style.display != 'none' ? 'none' : '' );
-  	}
-  }
-
-
-
-  $("#howitworks").click(function(){
-      $("#howitworksinfo").toggle();
+  $("#commutersbutton").click(function(){
+    $("#commutersinfo").toggle();
   });
 
+  $("#companiesbutton").click(function(){
+    $("#companiesinfo").toggle();
+  });
 
-  // $("#about").click(function(){
-  //     $("#aboutpage").show();
-  // });
+  $("#bidsbutton").click(function(){
+    $("#bidsinfo").toggle();
+  });
+
+  $("#apartmentsbutton").click(function(){
+    $("#apartmentsinfo").toggle();
+  });
 
 });
