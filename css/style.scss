@@ -12,10 +12,6 @@ body {
   padding-top: 3em;
 }
 
-h1, h2, h3, h4 {
-
-}
-
 h1 {
   color: $blue;
   font-size: 3em;
@@ -58,9 +54,9 @@ font-size: 1em;
   background-color: #F11111;
   border: 0em;
   margin: 0.25em;
-  a {
-    color: white;
-    text-decoration: none;
-  }
+  // a {
+  //   color: white;
+  //   text-decoration: none;
+  // }
 
 }
