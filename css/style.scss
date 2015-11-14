@@ -5,13 +5,34 @@ $gray: #545454;
 $blue: #5BC0DE;
 $red: #F11111;
 
+//Layout
 body {
   margin: 3em;
   background-color: #eee;
   text-align: center;
-  padding-top: 3em;
+  padding: 3em;
+}
+.container {
+    align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 70%;
+    h5, p {
+      text-align: left;
+    }
+}
+.btn {
+  background-color: #F11111;
+  border: 0em;
+  margin: 0.25em;
+}
+.glyphicon {
+  margin-right: 0.5em;
 }
 
+//Typography
 h1 {
   color: $blue;
   font-size: 3em;
@@ -44,19 +65,4 @@ h5 {
 p {
 color: $gray;
 font-size: 1em;
-}
-
-.glyphicon {
-  margin-right: 0.5em;
-}
-
-.btn {
-  background-color: #F11111;
-  border: 0em;
-  margin: 0.25em;
-  // a {
-  //   color: white;
-  //   text-decoration: none;
-  // }
-
 }
