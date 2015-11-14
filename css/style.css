@@ -5816,8 +5816,8 @@ body {
   border: 0em;
   margin: 0.25em; }
 
-.glyphicon {
-  margin-right: 0.5em; }
+#stakeholderinfo {
+  padding-top: 1em; }
 
 h1 {
   color: #5BC0DE;
