@@ -5795,38 +5795,22 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-@media screen and (min-width: 320px) {
-  .main {
-    margin: 10em;
-    background-color: #eee;
-    text-align: center;
-    padding-top: 10em; } }
-@media screen and (min-width: 600px) {
-  .main {
-    margin: 3em;
-    background-color: #eee;
-    text-align: center;
-    padding: 3em; } }
-@media screen and (min-width: 320px) {
-  .container {
-    align: center;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    width: 100%; }
-    .container h5, .container p {
-      text-align: left; } }
-@media screen and (min-width: 600px) {
-  .container {
-    align: center;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    width: 70%; }
-    .container h5, .container p {
-      text-align: left; } }
+.main {
+  margin: 3em;
+  background-color: #eee;
+  text-align: center;
+  padding: 3em; }
+
+.container {
+  align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  width: 100%; }
+  .container h5, .container p {
+    text-align: left; }
+
 .btn {
   background-color: #F11111;
   border: 0em;
