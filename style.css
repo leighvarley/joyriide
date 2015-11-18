@@ -5795,15 +5795,11 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.main {
-  margin: 3em;
-  background-color: #eee;
-  text-align: center;
-  padding: 3em; }
-
 .container {
+  padding: 3em;
+  background-color: #eee;
   align: center;
-  position: relative;
+  padding-top: 7em;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
