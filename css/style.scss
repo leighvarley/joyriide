@@ -7,15 +7,10 @@ $blue: #5BC0DE;
 $red: #F11111;
 
 //Layout
-.main {
-  margin: 3em;
-  background-color: #eee;
-  text-align: center;
-  padding: 3em;
-}
 .container {
+    padding: 3em;
+    background-color: #eee;
     align: center;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
