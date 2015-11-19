@@ -5795,36 +5795,26 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-@media screen and (min-width: 320px) {
-  body {
-    background-color: #eee;
-    text-align: center; } }
-@media screen and (min-width: 600px) {
-  body {
-    margin: 3em;
-    background-color: #eee;
-    text-align: center;
-    padding: 3em; } }
-@media screen and (min-width: 320px) {
-  .container {
-    align: center;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    width: 100%; }
-    .container h5, .container p {
-      text-align: left; } }
-@media screen and (min-width: 600px) {
-  .container {
-    align: center;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    width: 70%; }
-    .container h5, .container p {
-      text-align: left; } }
+body {
+  position: relative;
+  background-color: #eee; }
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  border: 0; }
+
+.container {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  text-align: center; }
+  .container h5, .container p {
+    text-align: left; }
+
 .btn {
   background-color: #F11111;
   border: 0em;
@@ -5832,16 +5822,6 @@ button.close {
 
 #stakeholderinfo {
   padding-top: 1em; }
-
-#navbar {
-  margin-bottom: 5em;
-  width: 100%;
-  height: 5%; }
-  #navbar img {
-    width: 12%;
-    height: 90%;
-    float: left;
-    padding: 0.5em; }
 
 h1 {
   color: #5BC0DE;

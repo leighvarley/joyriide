@@ -7,19 +7,26 @@ $blue: #5BC0DE;
 $red: #F11111;
 
 //Layout
-
+body {
+  position: relative;
+  background-color: #eee;
+}
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  border: 0;
+}
 .container {
-    padding: 3em;
-    background-color: #eee;
-    align: center;
-    padding-top: 7em;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    width: 100%;
-    h5, p {
-      text-align: left;
-    }
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  text-align: center;
+  h5, p {
+    text-align: left;
+  }
 }
 .btn {
   background-color: #F11111;
